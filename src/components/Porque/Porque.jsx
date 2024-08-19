@@ -43,10 +43,7 @@ export default function PQ() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
-<<<<<<< HEAD
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
           </ul>
         </nav>
 
@@ -68,10 +65,7 @@ export default function PQ() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
-<<<<<<< HEAD
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
           </ul>
         </nav>
       </header>
@@ -113,7 +107,6 @@ export default function PQ() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
         <div className="flex justify-center lg:justify-end">
   <Link 
     to="/Porque-Comprar-uma-cama"
@@ -131,24 +124,6 @@ export default function PQ() {
     />
   </Link>
 </div>
-=======
-        <div className="flex justify-end mt-8 ">
-                <Link 
-                    to="/Porque-Comprar-uma-cama"
-                    className="bg-marrom-claro text-white font-bold py-2 px-6 rounded-full relative inline-block"
-                    style={{ 
-                        clipPath: 'polygon(0 50%, 10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%)',
-                        backgroundImage: 'url(/path/to/bone-shape.svg)',
-                        backgroundSize: 'cover',
-                    }}
-                >
-                <img 
-                src={Proximo} 
-                alt="" 
-                />
-                </Link>
-            </div>
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
       </section>
     </main>
   );

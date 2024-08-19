@@ -45,10 +45,7 @@ export default function Sobre() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
-<<<<<<< HEAD
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
           </ul>
         </nav>
 
@@ -68,32 +65,18 @@ export default function Sobre() {
           <ul className="flex flex-col space-y-6 text-marrom-claro p-4">
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/" onClick={toggleMenu}>Introdução</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
-<<<<<<< HEAD
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
-            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
-            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
           </ul>
         </nav>
       </header>
 
-<<<<<<< HEAD
       <section className="p-8">
         <h2 className="text-4xl font-bold mb-3">Apresentação do projeto</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-marrom text-base">
           {/* Diferencial do projeto */}
           <div className="w-full md:w-3/4">
-=======
-      
-      <section className="p-16">
-        <h2 className="text-4xl font-bold mb-12">Apresentação do projeto</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-marrom text-base">
-          {/* Diferencial do projeto */}
-          <div className="w-full md:w-3/4 ">
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
             <img 
               src={PC} 
               alt="" 
@@ -104,11 +87,7 @@ export default function Sobre() {
             <p><strong className='text-laranja'>Durabilidade:</strong> Camas aquecedoras tendem a ser mais duráveis do que roupas, que podem rasgar ou desgastar-se rapidamente.</p>
           </div>
           {/* Objetivo do projeto */}
-<<<<<<< HEAD
           <div className="w-full md:w-3/4">
-=======
-          <div className="w-full md:w-3/4 ">
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
             <img 
               src={MAO} 
               alt="" 
@@ -118,11 +97,7 @@ export default function Sobre() {
             <p>Conta com uma casinha de cachorro com um aquecedor embutido, conseguindo controlar a temperatura do ambiente da casinha pelo celular, independente do lugar onde estiver.</p>
           </div>
           {/* Público alvo */}
-<<<<<<< HEAD
           <div className="w-full md:w-3/4">
-=======
-          <div className="w-full md:w-3/ ">
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
             <img 
               src={Bandeira} 
               alt="" 
@@ -135,7 +110,6 @@ export default function Sobre() {
             </ul>
           </div>
         </div>
-<<<<<<< HEAD
         <div className="flex justify-center lg:justify-end">
   <Link 
     to="/Como"
@@ -154,29 +128,7 @@ export default function Sobre() {
   </Link>
 </div>
 
-=======
-        <div className="flex justify-end">
-          <Link 
-            to="/Como"
-            className="bg-marrom-claro text-white font-bold py-2 px-6 rounded-full relative inline-block"
-            style={{ 
-              clipPath: 'polygon(0 50%, 10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%)',
-              backgroundImage: 'url(/path/to/bone-shape.svg)',
-              backgroundSize: 'cover',
-            }}
-          >
-            <img 
-              src={Proximo} 
-              alt="" 
-            />
-          </Link>
-        </div>
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
       </section>
     </main>
   );
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a

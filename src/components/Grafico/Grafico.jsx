@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LogoHotDog from '../../assets/logo.svg';
 import Grafico from '../../assets/grafico.svg';
-<<<<<<< HEAD
 import Proximo from '../../assets/prox.svg';
-=======
-
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
 
 export default function PQ() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,10 +44,7 @@ export default function PQ() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
-<<<<<<< HEAD
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
           </ul>
         </nav>
 
@@ -73,10 +66,7 @@ export default function PQ() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
-<<<<<<< HEAD
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
           </ul>
         </nav>
       </header>
@@ -97,7 +87,6 @@ export default function PQ() {
           className="w-full md:w-1/2 lg:max-w-md mt-8 md:mt-0 md:ml-8"
         />
       </div>
-<<<<<<< HEAD
       <div className="flex justify-center lg:justify-end">
   <Link 
     to="/Materiais"
@@ -115,8 +104,6 @@ export default function PQ() {
     />
   </Link>
 </div>
-=======
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
     </main>
   );
 }

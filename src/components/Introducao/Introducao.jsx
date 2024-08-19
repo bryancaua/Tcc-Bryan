@@ -38,18 +38,11 @@ export default function Introducao() {
           {/* Menu normal para telas maiores */}
           <nav className="hidden md:flex ml-4 md:ml-0 md:mr-32">
             <ul className="flex space-x-6 md:space-x-12 text-marrom-claro">
-<<<<<<< HEAD
               <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/">Introdução</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/">Introdução</Link></li>
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
-              <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
             </ul>
           </nav>
 
@@ -67,18 +60,11 @@ export default function Introducao() {
               </button>
             </div>
             <ul className="flex flex-col space-y-6 text-marrom-claro p-4">
-<<<<<<< HEAD
               <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/" onClick={toggleMenu}>Introdução</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
-=======
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/" onClick={toggleMenu}>Introdução</Link></li>
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
-              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
->>>>>>> cc50e638e11a0099fba0a9bde5101997fb972c6a
             </ul>
           </nav>
         </header>
