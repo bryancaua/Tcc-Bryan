@@ -78,26 +78,26 @@ export default function Introducao() {
     Sobre o Projeto
   </h1>
 
-  <div className="flex flex-col md:flex-row items-start w-full max-w-6xl gap-12 mt-10">
-    {/* Texto */}
-    <div className="md:w-1/2">
-      <h2 className="font-sans font-medium text-lg md:text-xl text-black text-justify leading-relaxed">
-      Texto sobre o Projeto
-      </h2>
-    </div>
-
-    {/* Video Responsivo */}
-    <div className="w-full md:w-1/2 h-auto">
-      <iframe
-        src="youtube.com/"
-        title="YouTube Video"
-        className="w-full aspect-video"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-    </div>
+  <div className="flex flex-col items-center w-full max-w-6xl gap-12 mt-10">
+  {/* Video Responsivo */}
+  <div className="w-full md:w-2/4 h-auto mb-8">
+    <iframe
+      src="https://www.youtube.com/embed/96GV3GMNE1Y"
+      title="YouTube Video"
+      className="w-full aspect-video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
   </div>
+
+  {/* Texto */}
+  <div className="md:w-1/2">
+    <h2 className="font-sans text-lg md:text-xl text-black text-justify leading-relaxed mb-10">
+      Nosso projeto é voltado para animais de estimação que precisam de cuidados especiais, como os idosos ou com problemas articulares, oferecendo uma casinha com aquecedor embutido que alivia dores e reduz o estresse. Com controle de temperatura via celular, o sistema permite ajustar o aquecimento à distância, garantindo conforto e segurança para o animal, mesmo quando o dono está fora de casa.
+    </h2>
+  </div>
+</div>
 </div>
 
     
