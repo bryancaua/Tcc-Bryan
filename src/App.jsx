@@ -10,6 +10,7 @@ import Grafic from './components/Grafico/Grafico'
 import Materiais from './components/Materiais/Materiais'
 import Referencias from './components/Referencias/referencias'
 import Jogo from './components/Jogo/Jogo'
+import Projeto from './components/ProjetoV/Video'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/materiais" element={<Materiais />} /> 
         <Route path="/referencias" element={<Referencias />} /> 
         <Route path="/jogo" element={<Jogo />} />
+        <Route path="/video-do-projeto" element={<Projeto />}/>
       </Routes>
     </Router>
   );

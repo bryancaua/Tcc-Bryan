@@ -42,6 +42,7 @@ export default function Introducao() {
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
               <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/jogo">Jogo</Link></li>
+              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/video-do-projeto">Projeto</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
             </ul>
           </nav>
@@ -65,6 +66,7 @@ export default function Introducao() {
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
               <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/jogo">Jogo</Link></li>
+              <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/video-do-projeto">Projeto</Link></li>
               <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
             </ul>
           </nav>
@@ -76,16 +78,9 @@ export default function Introducao() {
     Sobre o Jogo
   </h1>
 
-  <div className="flex flex-col md:flex-row items-start w-full max-w-6xl gap-12 mt-10">
-    {/* Texto */}
-    <div className="md:w-1/2">
-      <h2 className="font-sans font-medium text-lg md:text-xl text-black text-justify leading-relaxed">
-      No jogo HOT DOG, feito no GDevelop 5, o jogador pode controlar um cachorro, um humano ou uma gata, que precisa coletar ossos e chegar à casinha sem ser derrotado pelos slimes (rosas na fase 1 e verdes na fase 2). Checkpoints restauram sua vida, e o inventário inclui uma poção que elimina os slimes por 10 segundos, facilitando o avanço.
-      </h2>
-    </div>
-
+  <div className="flex flex-col items-center w-full max-w-6xl gap-12 mt-10">
     {/* Video Responsivo */}
-    <div className="w-full md:w-1/2 h-auto">
+    <div className="w-full md:w-2/4 h-auto mb-8">
       <iframe
         src="https://www.youtube.com/embed/-qBoak3ra_4"
         title="YouTube Video"
@@ -95,8 +90,16 @@ export default function Introducao() {
         allowFullScreen
       ></iframe>
     </div>
+
+    {/* Texto */}
+    <div className="md:w-1/2">
+      <h2 className="font-sans text-lg md:text-xl text-black text-justify leading-relaxed mb-10">
+        Nosso jogo HOT DOG, feito no GDevelop 5, o jogador pode controlar um cachorro, um humano ou uma gata, que precisa coletar ossos e chegar à casinha sem ser derrotado pelos slimes (rosas na fase 1 e verdes na fase 2). Checkpoints restauram sua vida, e o inventário inclui uma poção que elimina os slimes por 10 segundos, facilitando o avanço.
+      </h2>
+    </div>
   </div>
 </div>
+
 
     
     </main>

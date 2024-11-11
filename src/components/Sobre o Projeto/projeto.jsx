@@ -14,7 +14,7 @@ export default function Sobre() {
   };
 
   return (
-    <body className='overflow-hidden max-h-screen'>
+    <body className='lg:overflow-hidden lg:max-h-screen'>
     <main className="bg-off-white">
       {/* Header */}
       <header className="bg-bege-madeira flex flex-col md:flex-row items-center justify-between p-4 relative">
@@ -47,6 +47,7 @@ export default function Sobre() {
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/jogo">Jogo</Link></li>
+            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/video-do-projeto">Projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
           </ul>
         </nav>
