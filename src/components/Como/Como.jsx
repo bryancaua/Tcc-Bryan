@@ -42,6 +42,7 @@ export default function Como() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
+            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/jogo">Jogo</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
           </ul>
         </nav>
@@ -64,6 +65,7 @@ export default function Como() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
+            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/jogo" onClick={toggleMenu}>Jogo</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
           </ul>
         </nav>
@@ -71,7 +73,7 @@ export default function Como() {
 
       <section className="flex-grow p-8 flex flex-col justify-between">
         <div>
-          <h2 className="text-4xl font-sans2 mb-8 font-bold">Como nosso projeto irá funcionar?</h2>
+          <h2 className="text-3xl md:text-6xl font-sans2 mb-8 font-bold">Como nosso projeto irá funcionar?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-bege p-4 rounded-lg">
               <h3 className="text-2xl font-bold mb-2">1º -</h3>

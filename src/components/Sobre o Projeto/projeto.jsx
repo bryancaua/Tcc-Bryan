@@ -14,6 +14,7 @@ export default function Sobre() {
   };
 
   return (
+    <body className='overflow-hidden max-h-screen'>
     <main className="bg-off-white">
       {/* Header */}
       <header className="bg-bege-madeira flex flex-col md:flex-row items-center justify-between p-4 relative">
@@ -45,6 +46,7 @@ export default function Sobre() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos">Sobre nós</Link></li>
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto">Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais">Materiais</Link></li>
+            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/jogo">Jogo</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
           </ul>
         </nav>
@@ -67,13 +69,14 @@ export default function Sobre() {
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/sobre-nos" onClick={toggleMenu}>Sobre nós</Link></li>
             <li><Link className="opacity-75 text-marrom font-sans2 font-bold" to="/sobre-o-projeto" onClick={toggleMenu}>Sobre o projeto</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/materiais" onClick={toggleMenu}>Materiais</Link></li>
+            <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/jogo">Jogo</Link></li>
             <li><Link className="hover:opacity-75 text-marrom font-sans2 font-bold" to="/referencias">Referências</Link></li>
           </ul>
         </nav>
       </header>
 
       <section className="p-8">
-        <h2 className="text-4xl font-bold mb-3">Apresentação do projeto</h2>
+        <h2 className="text-3xl md:text-6xl font-sans2 mb-3 font-bold">Apresentação do projeto</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-marrom text-base">
           {/* Diferencial do projeto */}
           <div className="w-full md:w-3/4">
@@ -130,5 +133,6 @@ export default function Sobre() {
 
       </section>
     </main>
+  </body>
   );
 }

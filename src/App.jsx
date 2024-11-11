@@ -9,6 +9,7 @@ import PQ from './components/Porque/Porque'
 import Grafic from './components/Grafico/Grafico'
 import Materiais from './components/Materiais/Materiais'
 import Referencias from './components/Referencias/referencias'
+import Jogo from './components/Jogo/Jogo'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/Porque-Comprar-uma-cama" element={<Grafic />} />
         <Route path="/materiais" element={<Materiais />} /> 
         <Route path="/referencias" element={<Referencias />} /> 
+        <Route path="/jogo" element={<Jogo />} />
       </Routes>
     </Router>
   );
